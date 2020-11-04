@@ -28,11 +28,11 @@ const Alink = () => {
     },
   ];
   return (
-    <div>
+    <div className="links">
       {links.map(({ titre, Icone }, key) => (
         <div className="test" key={key}>
-          <Icone className="amenu-size my-1 ml-4" />
-          <p className="ml-3 my-2">{titre}</p>
+          <Icone className="amenu-size ml-4" />
+          <p className="title ml-3">{titre}</p>
         </div>
       ))}
     </div>

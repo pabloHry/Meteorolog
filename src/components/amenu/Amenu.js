@@ -1,7 +1,7 @@
 import React from "react";
-import Atitle from "./amenu/Atitle";
-import Afavority from "./amenu/Afavority";
-import Alink from "./amenu/Alink";
+import Atitle from "./Atitle";
+import Afavority from "./Afavority";
+import Alink from "./Alink";
 
 const Amenu = () => (
   <div className="amenu ">

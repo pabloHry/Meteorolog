@@ -1,12 +1,9 @@
-import "./App.css";
+import "./dist/css/Amenu.css";
+import "./dist/css/Right.css";
 import Cards from "./components/Card";
 import "bootstrap/dist/css/bootstrap.css";
-import React, { Component } from "react";
+import React from "react";
 
-class App extends Component {
-  render() {
-    return <Cards />;
-  }
-}
+const App = () => <Cards />;
 
 export default App;
