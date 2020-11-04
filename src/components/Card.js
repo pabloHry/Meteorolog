@@ -4,10 +4,10 @@ import Rmenu from "./right/Rmenu";
 
 const Cards = () => (
   <div>
-    <div className="container my-5">
+    <div className="my-5">
       <div className="row card-page">
         <Amenu />
-        <div className="col-9 main-page">
+        <div className="col-7 main-page">
           <Rmenu />
         </div>
       </div>
