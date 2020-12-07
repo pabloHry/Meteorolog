@@ -11,7 +11,7 @@ const Rsearch = () => (
       </div>
       <form className="form-inline">
         <input
-          className="form-control mr-sm-2"
+          className="form-control searchT"
           type="search"
           placeholder="Search"
           aria-label="Search"

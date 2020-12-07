@@ -4,10 +4,10 @@ import Rmenu from "./right/Rmenu";
 
 const Cards = () => (
   <div>
-    <div className="my-5">
-      <div className="row card-page">
+    <div className="py-3">
+      <div className="d-flex justify-content-center page">
         <Amenu />
-        <div className="col-7 main-page">
+        <div className="main-page">
           <Rmenu />
         </div>
       </div>

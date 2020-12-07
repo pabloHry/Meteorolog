@@ -39,19 +39,19 @@ const Afavority = () => {
           </h5>
         </div>
         <div className="humi">
-          <small className="hit ml-4">Humidity:</small>
-          <small className="ph">70%</small>
+          <small className="hit p-4">Humidity:</small>
+          <small className="p-4">70%</small>
           {progressInstance}
         </div>
         <div className="preci">
-          <small className="hit ml-4">Precipitation:</small>
-          <small className="ml-5">25%</small>
+          <small className="hit p-4">Precipitation:</small>
+          <small className="pl-2">25%</small>
           {precipitationInstance}
         </div>
-        <div className="wind my-2">
-          <small className="hit ml-4">Wind:</small>
-          <IoMdSpeedometer className="ml-3 amenu-size text-warning" />
-          <small className="ml-2">4.5km/h</small>
+        <div className="wind ">
+          <small className="hit pl-4">Wind:</small>
+          <IoMdSpeedometer className="amenu-size text-warning ml-2" />
+          <small className="p-2">4.5km/h</small>
         </div>
       </div>
     </div>

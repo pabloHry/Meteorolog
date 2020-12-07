@@ -6,7 +6,7 @@ import Alink from "./Alink";
 const Amenu = () => (
   <div className="amenu ">
     <Atitle />
-    <hr className="hr mb-5" />
+    <hr className="hr" />
     <Alink />
     <Afavority />
   </div>
